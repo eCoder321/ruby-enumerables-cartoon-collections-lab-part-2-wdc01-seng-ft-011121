@@ -1,3 +1,4 @@
+require 'pry'
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
@@ -34,5 +35,6 @@ def find_valid_calls(planeteer_calls)
     |i| 
   #  valid_calls.include? i 
   valid_calls.index(i)
+  binding.pry
   }
 end

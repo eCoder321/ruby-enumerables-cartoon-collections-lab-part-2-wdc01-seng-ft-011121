@@ -33,6 +33,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find {
     |i| 
   #  valid_calls.include? i 
-  return i if valid_calls.index(i)
+  valid_calls.index(i)
   }
 end

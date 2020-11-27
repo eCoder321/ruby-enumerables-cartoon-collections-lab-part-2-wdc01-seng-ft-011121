@@ -21,9 +21,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.select {
     |i| 
-    i.length > 4
+    return true if i.length > 4
   }
-  true 
+  false
 end
 
 def find_valid_calls(planeteer_calls)

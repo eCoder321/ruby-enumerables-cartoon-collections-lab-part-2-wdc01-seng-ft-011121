@@ -35,6 +35,6 @@ def find_valid_calls(planeteer_calls)
     |i| 
   #  valid_calls.include? i 
   valid_calls.index(i)
-  binding.pry
+ # binding.pry
   }
 end
